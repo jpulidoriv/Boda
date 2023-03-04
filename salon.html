@@ -1,0 +1,105 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Golos+Text&family=Great+Vibes&family=Satisfy&display=swap');
+    .title{
+    font-family: 'Great Vibes';
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 100px;
+    margin-bottom: -10px
+    }
+  
+    .infodDiv {
+    color: rgb(255, 255, 255);
+    font-family: 'Great Vibes';
+    font-size: 32px;
+    text-align: center;
+    font-weight: lighter;
+
+  }
+  
+
+.container{
+  margin: 20px auto;
+  width: 620px;
+  height: 450px;
+  background-color: transparent;
+  display:grid;
+  grid-template-columns: 300px 300px;
+  grid-row: auto auto;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  margin-top: 60px;
+
+}
+
+  .box{
+    border-radius: 10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition: transform .2s;
+  }
+
+  .box:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+  }
+
+  .box1{
+    background-image: url(haciendadia.jpeg);
+    background-size: cover;
+  }
+
+  .box2{
+    background-image: url(salon4.jpeg);
+    background-size: cover;
+    background-position: 0% 60%;
+    }  
+  
+
+  .box3{
+    background-image: url(salon2.jpeg);
+    background-size: cover;
+  }
+
+  .box4{
+    background-image: url(haciendadia2.jpeg);
+    background-size: cover;
+  }
+  
+  body{
+    background-image: url(guanajuato.jpg);
+    background-size: cover;
+    }
+
+    .line2{
+      font-size: 27px;
+    }
+
+</style>
+
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Golos+Text&family=Great+Vibes&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+
+<title>Salón</title>
+
+<h3 class="title">Salón</h3>
+ 
+
+<div class="infodDiv">
+  <p class="line1">Hacienda Arrayán</p>
+  <p class="line2">Hora: 7:00 pm</p>
+</div>
+
+
+<div class="container">
+  <div class="box box1"></div>
+  <div class="box box2"></div>
+  <div class="box box3"></div>
+  <div class="box box4"></div>
+</div>
